@@ -1,0 +1,447 @@
+.s{
+    right: 50px;
+    bottom: 10px;
+    text-align: right;
+    
+}
+.text-justify{
+    text-align: justify;
+}
+.vh-93{
+    height: 93vh;
+}
+.vh-7{
+    height: 7vh;
+}
+.scroll{
+    overflow:auto;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+/* .footer-address.address{
+    font-size: 10px;
+    color: white;
+    padding: 6px 0px;
+    box-sizing: border-box;
+} */
+
+ a{
+    font-size: 17px;
+    color: aliceblue; 
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0px;
+ }
+ a.hover{
+    color: brown;
+ }
+
+ .banner-text a{
+    background-color: rgb(230, 27, 27);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 35px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 15px;
+ }
+ .banner-gride a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: crimson;
+ }
+ .gride a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: crimson;
+    padding: 10px 20px;
+ }
+ .span{
+    text-decoration: underline;
+    
+    text-shadow: crimson;
+    direction: unset;
+
+}
+
+h1{
+    font-size: 70px;
+}
+.para{
+    font-size: 22px;
+}
+
+/* Global Presence Start CSS*/
+.col-md-4 h3{
+    text-align: center;
+}
+
+.col-md-4 p{
+    font-size: 18px;
+    padding: 2px 2px 2px 2px;
+}
+.gride-item{
+    float: right;
+    margin-right: 220px;
+    color: #fff;
+    font-size: 100px;
+}
+.gride-item-global{
+    float: right;
+    margin-right: 210px;
+    margin-top: -22px;
+    color: #fff;
+    
+}
+
+.gride-item1 {
+    float: right;
+    margin-right: 195px;
+    margin-top: -px;
+    color: #fff;
+}
+.gride-item-global-1 {
+    float: right;
+    margin-right: 100px;
+    margin-top: -25px;
+    color: #fff;
+    
+}
+.gride-item-2{
+    float: right;
+    margin-right: 238px;
+    margin-top: -px;
+    color: #fff; 
+}
+.gride-item-global-2{
+    float: right;
+    margin-right: 65px;
+    margin-top: -25px;
+    color: #fff;
+}
+.gride-item-3{
+    float: right;
+    margin-right: 220px;
+    margin-top: 10px;
+    color: #fff;
+}
+.gride-item-global-3{
+    float: right;
+    margin-right: 65px;
+    margin-top: -22px;
+    color: #fff;
+}
+.gride-item-4{
+    float: right;
+    margin-right: 190px;
+    margin-top: 8px;
+    color: #fff;
+}
+.gride-item-global-4{
+    float: right;
+    margin-right: 150px;
+    margin-top: -22px;
+    color: #fff;
+}
+.gride-item-5{
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+    color: #fff;
+}
+.gride-item-global-5{
+    float: right;
+    margin-right: 68px;
+    margin-top: -22px;
+    color: #fff;
+}
+
+
+/* Global Presence End CSS*/
+
+.row .col-md-6{
+   
+    background-image: -moz-linear-gradient(red, blue, yellow);
+}
+
+.border-left{
+    border-left:1px solid white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.banner{
+    height: 100px;
+    width: 100px;
+}
+
+/* about start */
+.a{
+    left: 100px;
+    bottom: 150px;
+    text-align: left;
+    
+}
+.text-home{
+    color: salmon;
+}
+.text-home:hover{
+    color: white;
+}
+.text-home:active{
+    color: rgb(235, 11, 11);
+}
+.ab{
+    text-decoration-color: beige;
+    color: salmon;
+}
+.mbed-responsive-item{
+    height: 400px;
+    width: 400px;
+}
+iframe{
+    position: absolute;
+    top: 525px;
+    bottom: 20px;
+    left: 750px;
+    right: 10px;
+   height: 75%;
+   width: 40%;
+}
+.p-3{
+   
+    font: 70px sans-serif;
+}
+.m{
+    border: 1px solid;
+}
+
+/* About End */
+
+.text-product{
+    background-image: url('./component/img/product-banner.jpg');
+    width: 100%;
+    height: 400px;
+}
+
+.mask{
+    
+        position: relative;
+        width: 362px;
+        height: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    
+}
+
+/* Services :start */
+
+.text-service{
+    background-image: url('./component/img/mobile-demobanner_latest.jpg');
+    width: 100%;
+    height: 470px;
+    right: 50px;
+    top: 100px;
+    text-align: right; 
+}
+.ser h3{
+    color: salmon;
+    text-align: left;
+    right: 300px; 
+    bottom: -300px; 
+}
+.img{
+    height: 100px;
+    width: -20;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.service-grid{
+    height: 420px;
+    width: 650px;
+}
+.para-ser{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.service-item{
+    float: right;
+    margin-right: 45px;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 10px;
+}
+.service-item-global{
+    float: right;
+    margin-right: 35px;
+    margin-top: -50px;
+    color: #fff;
+    
+}
+
+.service-item1 {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: #fff;
+}
+.service-item-global-1 {
+    float: right;
+    margin-right: 1px;
+    margin-top: -50px;
+    color: #fff;
+    
+}
+.service-item-2{
+    float: right;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #fff; 
+}
+.service-item-global-2{
+    float: right;
+    margin-right: 30px;
+    margin-top: -50px;
+    color: #fff;
+}
+.service-item-3{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+.service-item-global-3{
+    float: right;
+    margin-right: 55px;
+    margin-top: -50px;
+    color: #fff;
+}
+
+
+
+.services-item{
+    float: right;
+    margin-right: 140px;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 10px;
+}
+.services-item-global{
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+    color: #fff;
+    
+}
+
+.services-item-1 {
+    float: right;
+    margin-right: 130px;
+    margin-top: 10px;
+    color: #fff;
+
+}
+.services-item-global-1 {
+    float: right;
+    margin-right: 35px;
+    margin-top: -35px;
+    color: #fff;
+    
+}
+.services-item-2{
+    float: right;
+    margin-right: 140px;
+    margin-top: 10px;
+    color: #fff; 
+}
+.services-item-global-2{
+    float: right;
+    margin-right: 30px;
+    margin-top: -35px;
+    color: #fff;
+}
+.services-item-3{
+    float: right;
+    margin-right: 130px;
+    margin-top: 10px;
+    color: #fff;
+}
+.services-item-global-3{
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+    color: #fff;
+}
+
+/* Services End */
+
+.text-carrer{
+    background-image: url('./component/img/career-banner.jpg');
+    width: 100%;
+    height: 400px;
+}
+
+
+/* Backend CSS  */
+.back-login{
+    background-image: url('./component/img/back-login.jpg');
+}
+.text-login{
+    background-image: url('./component/img/bg-login.jpg');
+}
+.log{
+    
+    background-color: #755474;
+}
+.form-control{
+    background-color: #45a7ba;
+}
+
+.back-admin{
+    background-image: url('./component/img/back-admin.jpg');
+}
+.bg-admin{
+    background-image: url('./component/img/bg-admin.jpg');
+}
+.adlog{
+    font-family:cursive;
+    text-align: center;
+}
+.bg-addash{
+    background-image: url('./component/img/bg-dash.jpg');
+}
+.back-dash{
+    background-image: url('./component/img/back-dash.jpg');
+}
+.cards{
+    background-color: #86736d;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+}
+.bg-alluser{
+    background-image: url('./component/img/bg-alluser.jpg');
+    color: #fff;
+    border: 1px solid black;
+}
+.bg-pen{
+    background-image: url('./component/img/bg-pen.jpg');
+    
+}
+.back-pen{
+    background-image: url('./component/img/back-pen.jpg');
+}
+
+.userdash{
+    background-image: url('./component/img/bg-userdash.jpg');
+}
